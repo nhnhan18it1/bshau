@@ -35,5 +35,8 @@ Route::get('index', "allContronller@index");
 Route::get('pricing', function () {
     return view("pricing");
 });
+Route::get('googlec6d2fe5d95adad11', function () {
+    return view("googlec6d2fe5d95adad11");
+});
 
 
