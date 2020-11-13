@@ -14,15 +14,10 @@
 */
 
 Route::get('/',"allContronller@index");
-Route::get('about', function () {
-    return view("about");
-});
-Route::get('appointment', function () {
-    return view("appointment");
-});
-Route::get('blog', function () {
-    return view("blog");
-});
+// return view("about");
+Route::get('about', "allContronller@about");
+Route::get('appointment', "allContronller@appointment");
+Route::get('blog', "allContronller@blog");
 Route::get('blog-single', function () {
     return view("blog-single");
 });
@@ -35,9 +30,7 @@ Route::get('department', function () {
 Route::get('doctor', function () {
     return view("doctor");
 });
-Route::get('index', function () {
-    return view("index");
-});
+Route::get('index', "allContronller@index");
 
 Route::get('pricing', function () {
     return view("pricing");
