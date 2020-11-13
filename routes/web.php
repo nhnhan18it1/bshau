@@ -1,5 +1,5 @@
 <?php
-
+use Spatie\Sitemap\SitemapGenerator;
 
 
 /*
@@ -37,6 +37,10 @@ Route::get('pricing', function () {
 });
 Route::get('googlec6d2fe5d95adad11.html', function () {
     return view("googlec6d2fe5d95adad11");
+});
+Route::get('sitemap', function () {
+    SitemapGenerator::create('https://bshau.herokuapp.com/')->writeToFile("sitemap.xml");
+    return "sitemap created";
 });
 
 
