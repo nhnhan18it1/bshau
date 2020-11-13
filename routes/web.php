@@ -35,8 +35,8 @@ Route::get('index', "allContronller@index");
 Route::get('pricing', function () {
     return view("pricing");
 });
-Route::get('googlec6d2fe5d95adad11.html', function () {
-    return view("googlec6d2fe5d95adad11");
+Route::get('google08c1a77a74b877f4.html', function () {
+    return view("google08c1a77a74b877f4");
 });
 Route::get('sitemap', function () {
     SitemapGenerator::create('https://bshau.herokuapp.com/')->writeToFile("sitemap.xml");
