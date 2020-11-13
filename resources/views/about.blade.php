@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('public/images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -16,7 +16,7 @@
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/about.jpg);">
+					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(public/images/about.jpg);">
 					</div>
 					<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
 	          <div class="heading-section mb-5">
@@ -71,7 +71,7 @@
 			</div>
 		</section>
 
-		<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<section class="ftco-intro" style="background-image: url(public/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -102,7 +102,7 @@
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -116,7 +116,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_2.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -130,7 +130,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_3.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -144,7 +144,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_4.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -158,7 +158,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -176,7 +176,7 @@
       </div>
     </section>
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(public/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row">
     			<div class="col-md-6 py-5 pr-md-5">
