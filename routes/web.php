@@ -18,23 +18,12 @@ Route::get('/',"allContronller@index");
 Route::get('about', "allContronller@about");
 Route::get('appointment', "allContronller@appointment");
 Route::get('blog', "allContronller@blog");
-Route::get('blog-single', function () {
-    return view("blog-single");
-});
-Route::get('contact', function () {
-    return view("contact");
-});
-Route::get('department', function () {
-    return view("department");
-});
-Route::get('doctor', function () {
-    return view("doctor");
-});
+Route::get('blog-single', "allContronller@blog_single");
+Route::get('contact', "allContronller@contact");
+Route::get('department', "allContronller@department");
+Route::get('doctor', "allContronller@doctor");
 Route::get('index', "allContronller@index");
-
-Route::get('pricing', function () {
-    return view("pricing");
-});
+Route::get('pricing', "allContronller@pricing");
 Route::get('google08c1a77a74b877f4.html', function () {
     return view("google08c1a77a74b877f4");
 });
