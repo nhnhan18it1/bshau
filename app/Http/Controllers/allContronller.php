@@ -22,6 +22,16 @@ class allContronller extends Controller
         $url_canonical = $request->url();
         return view('appointment')->with(compact('meta_desc','meta_keywords','meta_title','url_canonical'));
     }
+
+    public function about(Request $request)
+    {
+        $meta_desc = "Chuyên các dịch vụ về siêu âm màu với nhiều năm kinh nghiệm trong nghề, Siêu âm 5D,nội soi,xét nghiệm sinh hóa huyết học miến dịch...";
+        $meta_keywords="Phòng khám Hậu Bình, Siêu âm 5D,nội soi,xét nghiệm ";
+        $meta_title = "Siêu âm 5D,nội soi,xét nghiệm ";
+        $url_canonical = $request->url();
+        return view('about')->with(compact('meta_desc','meta_keywords','meta_title','url_canonical'));
+    }
+
     public function blog(Request $request)
     {
         $meta_desc = "Chuyên các dịch vụ về siêu âm màu với nhiều năm kinh nghiệm trong nghề, Siêu âm 5D,nội soi,xét nghiệm sinh hóa huyết học miến dịch...";
